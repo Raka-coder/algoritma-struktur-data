@@ -9,6 +9,7 @@ main()
     for (i = 0; i < 10; i++)
         printf("%d ", Ar[i]);
 
+    // input data yang ingin dicari pada array    
     printf("\nMasukan data yang dicari : ");
     scanf("%d", &tar);
 
@@ -36,7 +37,7 @@ main()
     }
     else
     {
-        printf("\nData tidak ditemukan…! ");
+        printf("\nData tidak ditemukan…!");
         return 0;
     }
     getch();

@@ -1,8 +1,9 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
     int data[] = {10, 1, 2, 11, 8, 7, 5, 4, 15, 16};
-    int n = sizeof(data) / sizeof(data[0]); 
+    int n = sizeof(data) / sizeof(data[0]);
     int target; // data yang ingin dicari
 
     // input data yang ingin dicari pada array
@@ -10,8 +11,10 @@ int main() {
     scanf("%d", &target);
 
     int i;
-    for (i = 0; i < n; i++) {
-        if (data[i] == target) {
+    for (i = 0; i < n; i++)
+    {
+        if (data[i] == target)
+        {
             printf("\nData %d ditemukan pada indeks ke: %d\n", target, i);
             return 0;
         }
